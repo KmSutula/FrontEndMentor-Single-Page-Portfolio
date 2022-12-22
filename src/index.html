@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Single-page developer portfolio</title>
+  </head>
+  <body class="bg-black">
+    <img
+      class="absolute -left-24 top-32"
+      src="./assets/images/pattern-rings.svg"
+    />
+    <div id="container" class="mx-auto w-11/12 max-w-[1110px] md:w-5/6">
+      <div id="hero" class="pb-56">
+        <div
+          class="relative flex flex-col justify-between pt-10 align-middle md:flex-row"
+        >
+          <p class="text-xl text-white">adamkeyes</p>
+          <div
+            id="social-icons"
+            class="flex align-middle lg:justify-items-start"
+          >
+            <img
+              class="mx-3 md:mx-4"
+              src="./assets/images/icon-github.svg"
+            /><img
+              class="mx-3 md:mx-4"
+              src="./assets/images/icon-frontend-mentor.svg"
+            /><img
+              class="mx-3 md:mx-4"
+              src="./assets/images/icon-linkedin.svg"
+            /><img
+              class="mx-3 md:mx-4"
+              src="./assets/images/icon-twitter.svg"
+            />
+          </div>
+        </div>
+        <img
+          id="portrait"
+          class="top-0 -z-10 max-h-[720px] w-4/12 max-w-[445px] md:absolute md:right-0 lg:right-[8.5%]"
+          src="./assets/images/image-profile-desktop.webp"
+        />
+        <div class="mt-32 flex flex-col md:w-3/5 lg:w-1/2" id="intro-text">
+          <h1
+            class="text-[2.5rem] font-bold leading-none tracking-tightest text-white md:text-[4.5rem] lg:text-3xl"
+          >
+            Nice to meet you!<br class="hidden lg:block" />
+            I'm <span class="border-b-[6px] border-b-green">Adam Keyes</span>.
+          </h1>
+          <h5 class="mt-11 mb-16 w-auto text-m text-lightGrey">
+            Based in the UK, I'm a front-end developer passionate about building
+            accessible web apps that users love.
+          </h5>
+        </div>
+        <a href="#contact"
+          ><button
+            class="border-b-2 border-green font-bold uppercase -tracking-tightest text-white hover:text-green"
+          >
+            Contact me
+          </button></a
+        >
+      </div>
+
+      <div
+        id="skills"
+        class="border-t-[1px] border-white pt-10 md:pt-[52px] lg:pt-[72px]"
+      >
+        <ul
+          class="grid grid-cols-1 grid-rows-6 gap-y-6 text-white md:grid-cols-2 md:grid-rows-3 md:gap-x-2 lg:grid-cols-3 lg:grid-rows-2 lg:gap-x-7 lg:gap-y-14"
+        >
+          <li class="w-[345px]">
+            <h3 class="mb-3 text-2xl font-bold leading-[56px]">HTML</h3>
+            <span class="text-m leading-7 text-lightGrey"
+              >4 Years Experience</span
+            >
+          </li>
+          <li class="w-[345px]">
+            <h3 class="mb-3 text-2xl font-bold leading-[56px]">CSS</h3>
+            <span class="text-m leading-7 text-lightGrey"
+              >4 Years Experience</span
+            >
+          </li>
+          <li class="w-[345px]">
+            <h3 class="mb-3 text-2xl font-bold leading-[56px]">JavaScript</h3>
+            <span class="text-m leading-7 text-lightGrey"
+              >4 Years Experience</span
+            >
+          </li>
+          <li class="w-[345px]">
+            <h3 class="mb-3 text-2xl font-bold leading-[56px]">
+              Accessibility
+            </h3>
+            <span class="text-m leading-7 text-lightGrey"
+              >4 Years Experience</span
+            >
+          </li>
+          <li class="w-[345px]">
+            <h3 class="mb-3 text-2xl font-bold leading-[56px]">React</h3>
+            <span class="text-m leading-7 text-lightGrey"
+              >3 Years Experience</span
+            >
+          </li>
+          <li class="w-[345px]">
+            <h3 class="mb-3 text-2xl font-bold leading-[56px]">Sass</h3>
+            <span class="text-m leading-7 text-lightGrey"
+              >3 Years Experience</span
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div id="projects-section" class="mt-36 pb-32">
+        <div
+          id="projects-header"
+          class="mb-20 flex items-center justify-between"
+        >
+          <h1 class="text-3xl font-bold text-white">Projects</h1>
+          <a href="#contact" class=""
+            ><button
+              class="block border-b-2 border-green font-bold uppercase -tracking-tightest text-white hover:text-green"
+            >
+              Contact me
+            </button></a
+          >
+        </div>
+        <div
+          id="projects"
+          class="grid justify-items-center gap-y-10 md:grid-cols-2 md:grid-rows-3 md:gap-x-6 md:gap-y-14"
+        >
+          <div class="project max-w-[540px]">
+            <div class="proj-media relative">
+              <img
+                class="proj-img"
+                src="./assets/images/thumbnail-project-1-large.webp"
+              />
+              <div
+                class="proj-text absolute top-0 flex h-full w-full cursor-pointer flex-col items-center justify-center bg-black bg-opacity-75 uppercase opacity-0 transition-opacity duration-700 ease-in-out hover:opacity-100"
+              >
+                <a
+                  class="mb-12 border-b-2 border-green pb-2 font-bold -tracking-tightest text-white hover:text-green"
+                  href=""
+                  >View project</a
+                >
+                <a
+                  class="border-b-2 border-green pb-2 font-bold -tracking-tightest text-white hover:text-green"
+                  href=""
+                  >View code</a
+                >
+              </div>
+            </div>
+            <h5 class="mt-5 text-l font-bold uppercase leading-8 text-white">
+              Design portfolio
+            </h5>
+            <span class="mr-4 inline-block text-lightGrey">HTML</span
+            ><span class="text-lightGrey">CSS</span>
+          </div>
+          <div class="project max-w-[540px]">
+            <div class="proj-media relative">
+              <img
+                class="proj-img"
+                src="./assets/images/thumbnail-project-2-large.webp"
+              />
+              <div
+                class="proj-text absolute top-0 flex h-full w-full cursor-pointer flex-col items-center justify-center bg-black bg-opacity-75 uppercase opacity-0 transition-opacity duration-700 ease-in-out hover:opacity-100"
+              >
+                <a
+                  class="mb-12 border-b-2 border-green pb-2 font-bold -tracking-tightest text-white hover:text-green"
+                  href=""
+                  >View project</a
+                >
+                <a
+                  class="border-b-2 border-green pb-2 font-bold -tracking-tightest text-white hover:text-green"
+                  href=""
+                  >View code</a
+                >
+              </div>
+            </div>
+            <h5 class="mt-5 text-l font-bold uppercase leading-8 text-white">
+              E-Learning landing Page
+            </h5>
+            <span class="mr-4 inline-block text-lightGrey">HTML</span
+            ><span class="text-lightGrey">CSS</span>
+          </div>
+
+          <div class="project max-w-[540px]">
+            <div class="proj-media relative">
+              <img
+                class="proj-img"
+                src="./assets/images/thumbnail-project-3-large.webp"
+              />
+              <div
+                class="proj-text absolute top-0 flex h-full w-full cursor-pointer flex-col items-center justify-center bg-black bg-opacity-75 uppercase opacity-0 transition-opacity duration-700 ease-in-out hover:opacity-100"
+              >
+                <a
+                  class="mb-12 border-b-2 border-green pb-2 font-bold -tracking-tightest text-white hover:text-green"
+                  href=""
+                  >View project</a
+                >
+                <a
+                  class="border-b-2 border-green pb-2 font-bold -tracking-tightest text-white hover:text-green"
+                  href=""
+                  >View code</a
+                >
+              </div>
+            </div>
+            <h5 class="mt-5 text-l font-bold uppercase leading-8 text-white">
+              Todo web app
+            </h5>
+            <span class="mr-4 inline-block text-lightGrey">HTML</span
+            ><span class="mr-4 inline-block text-lightGrey">CSS</span
+            ><span class="text-lightGrey">JavaScript</span>
+          </div>
+
+          <div class="project max-w-[540px]">
+            <div class="proj-media relative">
+              <img
+                class="proj-img"
+                src="./assets/images/thumbnail-project-4-large.webp"
+              />
+              <div
+                class="proj-text absolute top-0 flex h-full w-full cursor-pointer flex-col items-center justify-center bg-black bg-opacity-75 uppercase opacity-0 transition-opacity duration-700 ease-in-out hover:opacity-100"
+              >
+                <a
+                  class="mb-12 border-b-2 border-green pb-2 font-bold -tracking-tightest text-white hover:text-green"
+                  href=""
+                  >View project</a
+                >
+                <a
+                  class="border-b-2 border-green pb-2 font-bold -tracking-tightest text-white hover:text-green"
+                  href=""
+                  >View code</a
+                >
+              </div>
+            </div>
+            <h5 class="mt-5 text-l font-bold uppercase leading-8 text-white">
+              Entertainment web app
+            </h5>
+            <span class="mr-4 inline-block text-lightGrey">HTML</span
+            ><span class="mr-4 inline-block text-lightGrey">CSS</span
+            ><span class="text-lightGrey">JavaScript</span>
+          </div>
+
+          <div class="project max-w-[540px]">
+            <div class="proj-media relative">
+              <img
+                class="proj-img"
+                src="./assets/images/thumbnail-project-5-large.webp"
+              />
+              <div
+                class="proj-text absolute top-0 flex h-full w-full cursor-pointer flex-col items-center justify-center bg-black bg-opacity-75 uppercase opacity-0 transition-opacity duration-700 ease-in-out hover:opacity-100"
+              >
+                <a
+                  class="mb-12 border-b-2 border-green pb-2 font-bold -tracking-tightest text-white hover:text-green"
+                  href=""
+                  >View project</a
+                >
+                <a
+                  class="border-b-2 border-green pb-2 font-bold -tracking-tightest text-white hover:text-green"
+                  href=""
+                  >View code</a
+                >
+              </div>
+            </div>
+            <h5 class="mt-5 text-l font-bold uppercase leading-8 text-white">
+              Memory Game
+            </h5>
+            <span class="mr-4 inline-block text-lightGrey">HTML</span
+            ><span class="mr-4 inline-block text-lightGrey">CSS</span
+            ><span class="text-lightGrey">JavaScript</span>
+          </div>
+
+          <div class="project max-w-[540px]">
+            <div class="proj-media relative">
+              <img
+                class="proj-img"
+                src="./assets/images/thumbnail-project-6-large.webp"
+              />
+              <div
+                class="proj-text absolute top-0 flex h-full w-full cursor-pointer flex-col items-center justify-center bg-black bg-opacity-75 uppercase opacity-0 transition-opacity duration-700 ease-in-out hover:opacity-100"
+              >
+                <a
+                  class="mb-12 border-b-2 border-green pb-2 font-bold -tracking-tightest text-white hover:text-green"
+                  href=""
+                  >View project</a
+                >
+                <a
+                  class="border-b-2 border-green pb-2 font-bold -tracking-tightest text-white hover:text-green"
+                  href=""
+                  >View code</a
+                >
+              </div>
+            </div>
+            <h5 class="mt-5 text-l font-bold uppercase leading-8 text-white">
+              Art Gallery Showcase
+            </h5>
+            <span class="mr-4 inline-block text-lightGrey">HTML</span
+            ><span class="mr-4 inline-block text-lightGrey">CSS</span
+            ><span class="text-lightGrey">JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="bg-darkGrey">
+      <div
+        class="contact-container mx-auto flex w-11/12 max-w-[1110px] flex-col items-center justify-between py-20 text-center md:w-5/6 lg:flex-row"
+      >
+        <div id="contact-text" class="mb-12 flex max-w-[445px] flex-col">
+          <h1 class="text-3xl font-bold text-white">Contact</h1>
+          <p class="text-lightGrey">
+            I would love to hear about your project and how I could help. Please
+            fill in the form, and I’ll get back to you as soon as possible.
+          </p>
+        </div>
+        <form class="flex min-w-[343px] max-w-[445px] flex-col">
+          <input
+            class="border-b-[1px] border-white bg-darkGrey pb-4 pl-6 text-white placeholder:text-white placeholder:opacity-50"
+            type="text"
+            placeholder="NAME"
+          />
+          <input
+            class="mt-8 border-b-[1px] border-white bg-darkGrey pb-4 pl-6 text-white placeholder:text-white placeholder:opacity-50"
+            type="email"
+            placeholder="EMAIL"
+          />
+          <textarea
+            class="mt-8 border-b-[1px] border-white bg-darkGrey pb-4 pl-6 text-white placeholder:text-white placeholder:opacity-50"
+            type="text"
+            placeholder="MESSAGE"
+          ></textarea>
+          <button
+            class="mt-8 mb-12 w-[144px] self-end border-b-2 border-green pb-2 font-bold uppercase -tracking-tightest text-white hover:text-green"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+    <footer class="relative bg-darkGrey">
+      <div
+        class="footer-container mx-auto flex w-11/12 max-w-[1110px] flex-col justify-between border-t-[1px] border-white py-20 pt-10 align-middle md:w-5/6 md:flex-row"
+      >
+        <p class="text-xl text-white">adamkeyes</p>
+        <div id="social-icons" class="flex align-middle lg:justify-items-start">
+          <img class="mx-3 md:mx-4" src="./assets/images/icon-github.svg" /><img
+            class="mx-3 md:mx-4"
+            src="./assets/images/icon-frontend-mentor.svg"
+          /><img
+            class="mx-3 md:mx-4"
+            src="./assets/images/icon-linkedin.svg"
+          /><img class="mx-3 md:mx-4" src="./assets/images/icon-twitter.svg" />
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
