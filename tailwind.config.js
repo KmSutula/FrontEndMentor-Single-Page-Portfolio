@@ -8,6 +8,7 @@ module.exports = {
       darkGrey: "#242424",
       lightGrey: "#d9d9d9",
       white: "#ffffff",
+      red: "#FF6F5B",
     },
     letterSpacing: {
       tightest: "-.156rem",
@@ -22,10 +23,12 @@ module.exports = {
       "2xl": "3rem",
       "3xl": "5.5rem",
     },
+
     fontFamily: {
       sans: ["Space Grotesk", "sans-serif"],
     },
     extend: {},
   },
+
   plugins: [],
 };
